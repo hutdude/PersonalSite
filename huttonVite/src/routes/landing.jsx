@@ -112,7 +112,7 @@ export default function Landing() {
                 </div>
 
                 {/* Section 3 */}
-                <div id="work" className={`h-full w-full absolute top-0 left-0 backdrop-blur transition-opacity duration-500 ${activeSection === 3 ? 'opacity-100' : 'opacity-0'}`}>
+                <div id="work" className={`h-full w-full absolute top-0 left-0 backdrop-blur transition-opacityg duration-500 ${activeSection === 3 ? 'opacity-100' : 'opacity-0'}`}>
                         <div className="flex items-center h-full justify-center">
                         <h1 className="text-4xl font-bold">Work</h1>
                         </div>
